@@ -71,6 +71,8 @@
 		CCBA347E2CA4130D0058507C /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBA347D2CA4130D0058507C /* MovieInfo.swift */; };
 		CCBA34802CA431C60058507C /* Country.json in Resources */ = {isa = PBXBuildFile; fileRef = CCBA347F2CA431C60058507C /* Country.json */; };
 		CCBA34822CA473F00058507C /* MovieVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBA34812CA473F00058507C /* MovieVideo.swift */; };
+		CCC950AC2EB26302002D9E28 /* env-dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CCC950AB2EB26302002D9E28 /* env-dev.xcconfig */; };
+		CCC950AE2EB2637F002D9E28 /* env-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CCC950AD2EB2637F002D9E28 /* env-release.xcconfig */; };
 		CCD08E902CA935DF005BB189 /* MovieCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD08E8F2CA935DF005BB189 /* MovieCardBackView.swift */; };
 		CCD358E22D07D6A60031F6CB /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD358E12D07D6A60031F6CB /* ImageDetailView.swift */; };
 		CCF315722CA045080082D794 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF315712CA045080082D794 /* CustomTabView.swift */; };
@@ -155,6 +157,8 @@
 		CCBA347D2CA4130D0058507C /* MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
 		CCBA347F2CA431C60058507C /* Country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Country.json; sourceTree = "<group>"; };
 		CCBA34812CA473F00058507C /* MovieVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVideo.swift; sourceTree = "<group>"; };
+		CCC950AB2EB26302002D9E28 /* env-dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "env-dev.xcconfig"; sourceTree = "<group>"; };
+		CCC950AD2EB2637F002D9E28 /* env-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "env-release.xcconfig"; sourceTree = "<group>"; };
 		CCD08E8F2CA935DF005BB189 /* MovieCardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardBackView.swift; sourceTree = "<group>"; };
 		CCD358E12D07D6A60031F6CB /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 		CCF315712CA045080082D794 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
@@ -233,6 +237,8 @@
 				CC73198E2C9C0469009158EC /* Preview Content */,
 				CC7319AB2C9C0B16009158EC /* Resources */,
 				CC7319AA2C9C0B0F009158EC /* Sources */,
+				CCC950AB2EB26302002D9E28 /* env-dev.xcconfig */,
+				CCC950AD2EB2637F002D9E28 /* env-release.xcconfig */,
 			);
 			path = MovieBox;
 			sourceTree = "<group>";
@@ -725,7 +731,9 @@
 			files = (
 				CCBA34802CA431C60058507C /* Country.json in Resources */,
 				CC7319902C9C0469009158EC /* Preview Assets.xcassets in Resources */,
+				CCC950AC2EB26302002D9E28 /* env-dev.xcconfig in Resources */,
 				CCF315892CA110FE0082D794 /* Launch Screen.storyboard in Resources */,
+				CCC950AE2EB2637F002D9E28 /* env-release.xcconfig in Resources */,
 				CC73198D2C9C0469009158EC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -925,6 +933,7 @@
 		};
 		CC7319942C9C0469009158EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC950AB2EB26302002D9E28 /* env-dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -965,6 +974,7 @@
 		};
 		CC7319952C9C0469009158EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC950AD2EB2637F002D9E28 /* env-release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
