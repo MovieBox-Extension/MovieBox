@@ -74,6 +74,7 @@
 		CCC950AC2EB26302002D9E28 /* env-dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CCC950AB2EB26302002D9E28 /* env-dev.xcconfig */; };
 		CCC950AE2EB2637F002D9E28 /* env-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CCC950AD2EB2637F002D9E28 /* env-release.xcconfig */; };
 		CCC950B02EB26453002D9E28 /* env-example.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CCC950AF2EB26453002D9E28 /* env-example.xcconfig */; };
+		CCC950B22EB265C4002D9E28 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC950B12EB265C4002D9E28 /* Constant.swift */; };
 		CCD08E902CA935DF005BB189 /* MovieCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD08E8F2CA935DF005BB189 /* MovieCardBackView.swift */; };
 		CCD358E22D07D6A60031F6CB /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD358E12D07D6A60031F6CB /* ImageDetailView.swift */; };
 		CCF315722CA045080082D794 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF315712CA045080082D794 /* CustomTabView.swift */; };
@@ -161,6 +162,7 @@
 		CCC950AB2EB26302002D9E28 /* env-dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "env-dev.xcconfig"; sourceTree = "<group>"; };
 		CCC950AD2EB2637F002D9E28 /* env-release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "env-release.xcconfig"; sourceTree = "<group>"; };
 		CCC950AF2EB26453002D9E28 /* env-example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "env-example.xcconfig"; sourceTree = "<group>"; };
+		CCC950B12EB265C4002D9E28 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		CCD08E8F2CA935DF005BB189 /* MovieCardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardBackView.swift; sourceTree = "<group>"; };
 		CCD358E12D07D6A60031F6CB /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 		CCF315712CA045080082D794 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				CC7319B62C9C4F36009158EC /* Domain */,
 				CC7319B12C9C0BC8009158EC /* Presentation */,
 				CC7319AC2C9C0B2A009158EC /* App */,
+				CCC950B12EB265C4002D9E28 /* Constant.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -788,6 +791,7 @@
 				CC7319EA2C9E95B3009158EC /* KobisRequest.swift in Sources */,
 				CC7319B92C9C5173009158EC /* DailyBoxOffice.swift in Sources */,
 				CCD08E902CA935DF005BB189 /* MovieCardBackView.swift in Sources */,
+				CCC950B22EB265C4002D9E28 /* Constant.swift in Sources */,
 				CCF315722CA045080082D794 /* CustomTabView.swift in Sources */,
 				CC7319FF2C9F3CFD009158EC /* MovieListDataSource.swift in Sources */,
 				CC7319BD2C9D4C2F009158EC /* MovieSearchResultDTO+Mapping.swift in Sources */,
