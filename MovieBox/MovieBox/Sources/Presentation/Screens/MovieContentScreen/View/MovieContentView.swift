@@ -140,16 +140,16 @@ struct MovieContentView: View {
                                                 let width = screenWidth * 0.22
                                                 
                                                 VStack(spacing: 10) {
-                                                    
-                                                    AsyncCachableImageView(urlString: cast.profilePath, size: CGSize(width: width, height: width * 1.32))
+
+                                                    KFAsyncImageView(urlString: cast.profilePath, size: CGSize(width: width, height: width * 1.32))
                                                         .clipShape(RoundedRectangle(cornerRadius: 10))
-                                                    
+
                                                     Text("\(cast.name)")
                                                         .font(.caption)
                                                         .fontWeight(.light)
                                                         .foregroundStyle(.white)
                                                         .lineLimit(1)
-                                                    
+
                                                 }
                                                 .frame(maxWidth: width)
                                                 .onTapGesture {
@@ -186,10 +186,10 @@ struct MovieContentView: View {
                                         LazyHStack(spacing: 10) {
                                             
                                             ForEach(output.movieImageGallery.backdropPathList.prefix(10), id: \.self) { movieImage in
-                                                
+
                                                 let width = screenWidth * 0.5
-                                                
-                                                AsyncCachableImageView(
+
+                                                KFAsyncImageView(
                                                     urlString: movieImage,
                                                     size: CGSize(width: width, height: width * 0.7)
                                                 )
@@ -303,7 +303,7 @@ struct MovieContentView: View {
                                                 NavigationLink {
                                                     MovieContentView(movieID: movie.id)
                                                 } label: {
-                                                    AsyncCachableImageView(
+                                                    KFAsyncImageView(
                                                         urlString: movie.posterPath,
                                                         size: CGSize(width: width, height: width * 1.32)
                                                     )
@@ -347,7 +347,7 @@ struct MovieContentView: View {
                                                 NavigationLink {
                                                     MovieContentView(movieID: movie.id)
                                                 } label: {
-                                                    AsyncCachableImageView(
+                                                    KFAsyncImageView(
                                                         urlString: movie.posterPath,
                                                         size: CGSize(width: width, height: width * 1.32)
                                                     )
@@ -470,7 +470,7 @@ struct MovieContentHeaderView: View {
             let _ = screenWidth
             let height = screenHeight * 0.37
 
-            AsyncCachableImageView(
+            KFAsyncImageView(
                 urlString: output.movieInfo.backdropPath,
                 size: CGSize(width: screenWidth, height: height)
             ).onTapGesture {
@@ -494,7 +494,7 @@ struct MovieContentHeaderView: View {
                     
                     let width = screenWidth * 0.22
                     
-                    AsyncCachableImageView(
+                    KFAsyncImageView(
                         urlString: output.movieInfo.posterPath,
                         size: CGSize(width: width, height: width * 1.32)
                     )

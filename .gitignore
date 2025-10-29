@@ -2,7 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=swift
 
 .DS_Store
-API.swift
+env-dev.xcconfig
+env-release.xcconfig
 
 ### Swift ###
 # Xcode

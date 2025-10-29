@@ -165,7 +165,7 @@ struct MovieBoxView: View {
     @ViewBuilder
     func CardView(movieCard: MovieBoxCard, width: CGFloat, height: CGFloat) -> some View {
         let isFlipped = flippedStates[movieCard.index] ?? false
-        let card = MovieCard(movieID: movieCard.movieID, poster: movieCard.poster, title: movieCard.title, rate: movieCard.rate, comment: movieCard.comment, creadedAt: movieCard.createdAt)
+        let card = MovieCard(movieID: movieCard.movieID, poster: movieCard.poster, title: movieCard.title, rate: movieCard.rate, comment: movieCard.comment, createdAt: movieCard.createdAt)
         
         VStack {
             if isFlipped {

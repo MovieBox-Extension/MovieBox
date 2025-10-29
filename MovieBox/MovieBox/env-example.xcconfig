@@ -1,0 +1,15 @@
+//
+//  env-example.xcconfig
+//  MovieBox
+//
+//  Created by Jinyoung Yoo on 10/30/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+// Debug -> env-dev.xcconfig
+// Release -> env-release.xcconfig
+KOBIS_KEY =
+TMDB_KEY =
+TMDB_IMAGE_REQ_BASE_URL =

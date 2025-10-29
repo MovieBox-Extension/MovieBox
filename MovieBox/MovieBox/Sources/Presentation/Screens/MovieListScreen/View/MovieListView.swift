@@ -66,16 +66,16 @@ struct MovieListView: View {
                                                             NavigationLink {
                                                                 MovieContentView(movieID: movie.id)
                                                             } label: {
-                                                                AsyncCachableImageView(urlString: movie.posterPath,
-                                                                                       size: CGSize(width: width, height: width * 1.3),
-                                                                                       cacheType: .memoryCache)
+                                                                KFAsyncImageView(urlString: movie.posterPath,
+                                                                                 size: CGSize(width: width, height: width * 1.3),
+                                                                                 cacheType: .memoryOnly)
                                                                 .clipShape(RoundedRectangle(cornerRadius: 10.0))
                                                                 .onAppear {
                                                                     if movie == viewModel.output.searchResults.last {
                                                                         viewModel.input.paginationTrigger.send(())
                                                                     }
                                                                 }
-                                                                
+
                                                             }
                                                         }
                                                     }
@@ -144,14 +144,14 @@ struct MovieListView: View {
         let width = screenWidth * 0.2
         
         return HStack(spacing: 20) {
-            
-            AsyncCachableImageView(
+
+            KFAsyncImageView(
                 urlString: movie.posterPath,
                 size: CGSize(width: width, height: width * 1.3),
-                cacheType: .diskCache
+                cacheType: .all
             )
-                .clipShape(RoundedRectangle(cornerRadius: 10.0))
-            
+            .clipShape(RoundedRectangle(cornerRadius: 10.0))
+
             VStack(alignment: .leading, spacing: 5) {
                 
                 Text(movie.name)
