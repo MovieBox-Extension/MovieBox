@@ -1,0 +1,13 @@
+//
+//  env-dev.xcconfig
+//  MovieBox
+//
+//  Created by Jinyoung Yoo on 10/29/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+KOBIS_KEY = df3971d0c296ecbaa6fd4d34180104b1
+TMDB_KEY = Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZmZkN2I0NmJkOGJmMjBhMmZlOGExYjU3ZmZkMWE2ZiIsIm5iZiI6MTcxOTM5Nzk2MS42ODA1NTksInN1YiI6IjY2NjVjMjRjODQ3MzkwZTQxMmI5YTYwYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.f6jMJTphULN-DKNUPqFjItoTp6ONCMtDlzrPrc9BEV0
+TMDB_KEY2 = Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZDg5MjFkZDQzNDMwNGVmY2MyMTJjNDQzNmFkMjI1MCIsIm5iZiI6MTcyNzMxMzM5MS41NjIwMDgsInN1YiI6IjY2ZjRiNTA3NjdkZDM2ZmU2ZTQ3YmIwZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.gLacHM8javU9d9LQ0w7Z1IJbJ1HAqqQqFtWlqQk9Nkk
+TMDB_IMAGE_REQ_BASE_URL = https:/${}/image.tmdb.org/t/p/w780
