@@ -14,7 +14,7 @@ struct ImageDetailView: View {
     private let width: CGFloat
     let onClose: () -> Void
 
-    init(imagePath: String?, width: CGFloat, onClose: @escaping () -> Void, imageData: Data? = nil) {
+    init(imagePath: String?, width: CGFloat, onClose: @escaping () -> Void) {
         self.imagePath = imagePath
         self.width = width
         self.onClose = onClose

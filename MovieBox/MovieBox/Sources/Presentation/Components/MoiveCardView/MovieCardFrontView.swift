@@ -85,5 +85,5 @@ struct MovieCardFrontView: View {
 
 
 #Preview {
-    MovieCardFrontView(movieCard: MovieCard(movieID: 673, poster: nil, title: "해리포터와 아즈카반", rate: 0, comment: "", creadedAt: .now), width: 350, height: 350 * 1.4)
+    MovieCardFrontView(movieCard: MovieCard(movieID: 673, poster: nil, title: "해리포터와 아즈카반", rate: 0, comment: "", createdAt: .now), width: 350, height: 350 * 1.4)
 }

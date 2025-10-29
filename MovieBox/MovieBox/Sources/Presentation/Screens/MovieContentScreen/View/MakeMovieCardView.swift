@@ -157,5 +157,5 @@ struct MakeMovieCardView: View {
 }
 
 #Preview {
-    MakeMovieCardView(movieCard: MovieCard(movieID: 673, poster: nil, title: "해리포터와 아즈카반", rate: 0, comment: "", creadedAt: .now))
+    MakeMovieCardView(movieCard: MovieCard(movieID: 673, poster: nil, title: "해리포터와 아즈카반", rate: 0, comment: "", createdAt: .now))
 }

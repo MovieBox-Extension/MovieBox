@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Constant.swift
 //  MovieBox
 //
 //  Created by Jinyoung Yoo on 10/30/25.

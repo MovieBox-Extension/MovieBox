@@ -14,7 +14,7 @@ struct MovieCard {
     let title: String
     var rate: Int
     var comment: String
-    let creadedAt: Date
+    let createdAt: Date
 
     static func makeMovieCard(_ entity: MovieContent.MovieCard) -> Self {
         return MovieCard(
@@ -23,7 +23,7 @@ struct MovieCard {
             title: entity.title,
             rate: entity.rate,
             comment: entity.comment,
-            creadedAt: entity.createdAt
+            createdAt: entity.createdAt
         )
     }
 
@@ -54,7 +54,7 @@ struct MovieCard {
             title: movieInfo.title,
             rate: 0,
             comment: "",
-            creadedAt: .now
+            createdAt: .now
         )
     }
 }

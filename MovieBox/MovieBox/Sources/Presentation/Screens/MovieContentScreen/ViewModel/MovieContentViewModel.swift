@@ -79,7 +79,7 @@ extension MovieContentViewModel {
         var movieVideoGallery = [MovieVideo]()
         var similarMovies = MovieContent.SimilarMovieGallery(posterList: [])
         var recommendMovies = MovieContent.RecommendationMovieGallery(posterList: [])
-        var movieCard = MovieCard(movieID: 0, poster: nil, title: "", rate: 0, comment: "", creadedAt: .now)
+        var movieCard = MovieCard(movieID: 0, poster: nil, title: "", rate: 0, comment: "", createdAt: .now)
         var showActivityIndicator = true
     }
 }

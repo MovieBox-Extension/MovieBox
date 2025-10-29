@@ -63,7 +63,7 @@ final class MakeMovieCardViewModel: ViewModel {
                     title: output.movieCard.title,
                     rate: output.movieCard.rate,
                     comment: output.movieCard.comment,
-                    createdAt: output.movieCard.creadedAt
+                    createdAt: output.movieCard.createdAt
                 )
                 
                 if output.isEditing {
