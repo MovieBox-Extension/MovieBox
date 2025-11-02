@@ -81,6 +81,7 @@
 		CCF315842CA07C630082D794 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF315832CA07C630082D794 /* DIContainer.swift */; };
 		CCF315892CA110FE0082D794 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF315882CA110FE0082D794 /* Launch Screen.storyboard */; };
 		CCF3158D2CA12CCA0082D794 /* ExpandableSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3158C2CA12CCA0082D794 /* ExpandableSearchBar.swift */; };
+		F42C61FB560D48B8FB9D84D6 /* DIContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A854F82DAC64737C378571C3 /* DIContainer+Extension.swift */; };
 		KFASYNC12025103000000001 /* KFAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = KFASYNC12025103000000002 /* KFAsyncImageView.swift */; };
 		KKFISHER12025103000000003 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = KKFISHER12025103000000002 /* Kingfisher */; };
 /* End PBXBuildFile section */
@@ -100,6 +101,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A854F82DAC64737C378571C3 /* DIContainer+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DIContainer+Extension.swift"; sourceTree = "<group>"; };
 		AB8C352A687892A4D9CA0C15 /* CountryMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryMapper.swift; sourceTree = "<group>"; };
 		CC529C7E2CA9B267001E5FEF /* ActitivyIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActitivyIndicatorView.swift; sourceTree = "<group>"; };
 		CC529C812CA9BAEB001E5FEF /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				CC7319882C9C0468009158EC /* MovieBoxApp.swift */,
+				A854F82DAC64737C378571C3 /* DIContainer+Extension.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -789,6 +792,7 @@
 				CC7319F82C9EEC25009158EC /* Moya+Extension.swift in Sources */,
 				CC7319D02C9D7674009158EC /* MovieGalleryDTO+Mapping.swift in Sources */,
 				ADFBB494779C5AB81A477C78 /* CountryMapper.swift in Sources */,
+				F42C61FB560D48B8FB9D84D6 /* DIContainer+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
