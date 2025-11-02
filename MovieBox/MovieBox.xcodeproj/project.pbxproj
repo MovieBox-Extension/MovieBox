@@ -48,7 +48,6 @@
 		CC7319FD2C9F3C23009158EC /* DefaultMovieListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7319FC2C9F3C23009158EC /* DefaultMovieListRepository.swift */; };
 		CC7319FF2C9F3CFD009158EC /* MovieListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7319FE2C9F3CFD009158EC /* MovieListDataSource.swift */; };
 		CC731A022CA037AF009158EC /* MovieListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC731A012CA037AF009158EC /* MovieListUseCase.swift */; };
-		KFASYNC12025103000000001 /* KFAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = KFASYNC12025103000000002 /* KFAsyncImageView.swift */; };
 		CC92217E2CA5894300C74F95 /* MovieBoxDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC92217D2CA5894300C74F95 /* MovieBoxDataSource.swift */; };
 		CC9221822CA58A7E00C74F95 /* MovieCardDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9221812CA58A7E00C74F95 /* MovieCardDTO.swift */; };
 		CC9221862CA5B24E00C74F95 /* MovieBoxRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9221852CA5B24E00C74F95 /* MovieBoxRepository.swift */; };
@@ -82,6 +81,7 @@
 		CCF315842CA07C630082D794 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF315832CA07C630082D794 /* DIContainer.swift */; };
 		CCF315892CA110FE0082D794 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF315882CA110FE0082D794 /* Launch Screen.storyboard */; };
 		CCF3158D2CA12CCA0082D794 /* ExpandableSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3158C2CA12CCA0082D794 /* ExpandableSearchBar.swift */; };
+		KFASYNC12025103000000001 /* KFAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = KFASYNC12025103000000002 /* KFAsyncImageView.swift */; };
 		KKFISHER12025103000000003 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = KKFISHER12025103000000002 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
@@ -135,7 +135,6 @@
 		CC7319FC2C9F3C23009158EC /* DefaultMovieListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMovieListRepository.swift; sourceTree = "<group>"; };
 		CC7319FE2C9F3CFD009158EC /* MovieListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListDataSource.swift; sourceTree = "<group>"; };
 		CC731A012CA037AF009158EC /* MovieListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListUseCase.swift; sourceTree = "<group>"; };
-		KFASYNC12025103000000002 /* KFAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFAsyncImageView.swift; sourceTree = "<group>"; };
 		CC92217D2CA5894300C74F95 /* MovieBoxDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBoxDataSource.swift; sourceTree = "<group>"; };
 		CC9221812CA58A7E00C74F95 /* MovieCardDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardDTO.swift; sourceTree = "<group>"; };
 		CC9221852CA5B24E00C74F95 /* MovieBoxRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBoxRepository.swift; sourceTree = "<group>"; };
@@ -168,6 +167,7 @@
 		CCF315832CA07C630082D794 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		CCF315882CA110FE0082D794 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		CCF3158C2CA12CCA0082D794 /* ExpandableSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableSearchBar.swift; sourceTree = "<group>"; };
+		KFASYNC12025103000000002 /* KFAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFAsyncImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -931,7 +931,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieBox/Preview Content\"";
-				DEVELOPMENT_TEAM = YWNQ4RZBTS;
+				DEVELOPMENT_TEAM = YV58Q28W8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieBox/Info.plist;
@@ -972,7 +972,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MovieBox/Preview Content\"";
-				DEVELOPMENT_TEAM = YWNQ4RZBTS;
+				DEVELOPMENT_TEAM = YV58Q28W8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieBox/Info.plist;
