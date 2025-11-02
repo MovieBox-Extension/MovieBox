@@ -5,15 +5,15 @@
 //  Created by Jinyoung Yoo on 9/19/24.
 //
 
+import Kingfisher
+import RealmSwift
 import SwiftUI
 import UIKit
-import RealmSwift
-import Kingfisher
 
 @main
 struct MovieBoxApp: App {
-
     init() {
+        DIContainer.shared.set(DIContainer.shared.buildContainer())
         let tabAp = UITabBarAppearance()
 
         tabAp.backgroundColor = .clear
@@ -43,19 +43,17 @@ struct MovieBoxApp: App {
 
         let config = Realm.Configuration(
             schemaVersion: 2,
-            migrationBlock: { migration, oldSchemaVersion in
-                if oldSchemaVersion < 2 {
-                }
+            migrationBlock: { _, oldSchemaVersion in
+                if oldSchemaVersion < 2 {}
             }
         )
 
         Realm.Configuration.defaultConfiguration = config
     }
-    
+
     var body: some Scene {
         WindowGroup {
             CustomTabView()
         }
     }
 }
-
